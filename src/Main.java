@@ -53,5 +53,16 @@ public class Main {
             }
             System.out.print(thirdArray[index] + ", ");
         }
+        System.out.println("Example4");
+        for (int index = 0; index < array.length; index++) {
+            if (array[index]%2 != 0) {
+                array[index] += 1;
+            }
+            if (index == array.length - 1) {
+                System.out.println(array[index]);
+                break;
+            }
+            System.out.print(array[index] + ", ");
+        }
     }
 }
