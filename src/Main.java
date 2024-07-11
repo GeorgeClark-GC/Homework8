@@ -28,5 +28,30 @@ public class Main {
             }
             System.out.print(thirdArray[index] + ", ");
         }
+        System.out.println("Example3");
+        int arraySize = array.length;
+        for (int index = arraySize - 1; index >= 0; index--) {
+            if (index == 0) {
+                System.out.println(array[index]);
+                break;
+            }
+            System.out.print(array[index] + ", ");
+        }
+        int secondArraySize = secondArray.length;
+        for (int index = secondArraySize - 1; index >= 0; index--) {
+            if (index == 0) {
+                System.out.println(secondArray[index]);
+                break;
+            }
+            System.out.print(secondArray[index] + ", ");
+        }
+        int thirdArraySize = thirdArray.length;
+        for (int index = thirdArraySize - 1; index >= 0; index--) {
+            if (index == 0) {
+                System.out.println(thirdArray[index]);
+                break;
+            }
+            System.out.print(thirdArray[index] + ", ");
+        }
     }
 }
